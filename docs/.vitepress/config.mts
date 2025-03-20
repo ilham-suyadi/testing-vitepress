@@ -85,6 +85,19 @@ export default defineConfig({
         },
       ],
     },
+    {
+      text: 'Ansible',
+      items: [
+        { 
+          text: 'Ansible', 
+          collapsed: true,
+          items: [
+            listMenu("Install FreeIPA Server with Ansible",`${path.ansible}/freeipaserver`),
+            listMenu("Install FreeIPA Client with Ansible",`${path.ansible}/freeipaclient`),
+          ],
+        },
+      ],
+    },
   ],
   }
   }
